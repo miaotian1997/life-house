@@ -80,7 +80,7 @@ server.post("/login",(req,res) => {
       var uid=result[0].uid;
       //保存session对象中
       req.session.uid=uid;
-      console.log(req.session.uid);
+      // console.log(req.session.uid);
       res.send({code:1,msg:"登录成功"});
     }
   })
