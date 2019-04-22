@@ -1,0 +1,27 @@
+{
+  "name": "life-house",
+  "version": "1.0.0",
+  "description": "life house",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaotian1997/life-house.git"
+  },
+  "author": "mm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miaotian1997/life-house/issues"
+  },
+  "homepage": "https://github.com/miaotian1997/life-house#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "mysql": "^2.17.1"
+  }
+}
