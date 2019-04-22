@@ -39,7 +39,7 @@ server.use(bodyPaeser.urlencoded({ extended: false }))
 
 
 //4.为express对象绑定监听端口 3000
-server.listen(3000);
+server.listen(5050);
 
 
 //功能一:用户注册
