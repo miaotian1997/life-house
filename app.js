@@ -76,7 +76,7 @@ server.post("/login",(req,res) => {
     }else{
       //登陆成功
       //获取当前登录用户id
-      console.log(result[0])
+      //console.log(result[0])
       var uid=result[0].uid;
       //保存session对象中
       req.session.uid=uid;
